@@ -34,5 +34,4 @@ Code 동작 환경
 
 * https://github.com/junheeheu/skt_ai_lecture_2018
 
-Link: [Google][googlelink]
-[googlelink]: https://google.com "Go google"
+[googlelink](https://google.com)
