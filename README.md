@@ -20,6 +20,12 @@ Code 동작 환경
 * AWS (Amazon Web Service)를 통해 환경을 무료로 제공 받을 수 있다.
   * [AWS사용설명서](https://drive.google.com/open?id=1oDysftiGrr3yo3qX1jfLJmiRu8xhiNRd62tjk5LvdgQ)
 
+AWS 실습 환경 사용 방법
+------------------------
+'''
+ssh -i ~/Downloads/skt_lecture.pem -L 8888:127.0.0.1:8888 ubuntu@52.79.44.222 
+'''
+
 현재 사용되는 인식 엔진에 대해
 ------------------------
 
