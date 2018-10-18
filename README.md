@@ -4,6 +4,13 @@
 - 본 Code는 SKT에 모든 권한이 있다.
 - 본 Code는 2018년 영상인식 강좌의 실습을 하는 학생들을 위한 한시적 사용을 목적으로 하고 있으며, 강좌 이외의 목적으로 활용될 수 없다.
 
+실습 항목
+------------------------
+* Image Load by OpenCV
+* Draw Rectangle for a face on the image by OpenCV
+* Regist Gallery Face Image using postman
+* Recognize a Face
+
 Code 동작 환경
 ------------------------
 * OS: Ubuntu 16.04 64bit
