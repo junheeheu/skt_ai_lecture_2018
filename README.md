@@ -26,7 +26,7 @@ Code 동작 환경
 * 현재 사용되는 인식 엔진은
   * 얼굴 검출은 정면으로 제한된다.
   * 한 사람에 대한 결과만 return 한다.
-    * 결과 return의 기준은 얼굴의 크기로 정의된다.
+    * 얼굴이 1개 이상일 경우, 결과 return의 기준은 얼굴의 크기로 정의된다.
 * 학기 프로젝트를 위해 사용이 필요한 경우 junhee.heu_at_sk.com 으로 연락 요망
 
 * 관련 사용법은 https://drive.google.com/open?id=1xdimVwZrJDpLWi5YQWzTPKJZ-1Cbf0fcQdnPoTLYbNc 를 참고한다.
