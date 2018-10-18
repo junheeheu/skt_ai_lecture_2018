@@ -17,8 +17,7 @@ Code 동작 환경
 
 만약 Ubuntu 환경이 없다면
 ------------------------
-* AWS (Amazon Web Service)를 통해 환경을 무료로 제공 받을 수 있다.
-  * https://drive.google.com/open?id=1oDysftiGrr3yo3qX1jfLJmiRu8xhiNRd62tjk5LvdgQ
+* AWS ([Amazon_Web_Service](https://drive.google.com/open?id=1oDysftiGrr3yo3qX1jfLJmiRu8xhiNRd62tjk5LvdgQ))를 통해 환경을 무료로 제공 받을 수 있다.
 
 현재 사용되는 인식 엔진에 대해
 ------------------------
@@ -29,9 +28,7 @@ Code 동작 환경
     * 얼굴이 2개 이상일 경우, 결과 return의 기준은 얼굴의 크기로 정의된다.
 * 학기 프로젝트를 위해 사용이 필요한 경우 junhee.heu_at_sk.com 으로 연락 요망
 
-* 관련 사용법은 https://drive.google.com/open?id=1xdimVwZrJDpLWi5YQWzTPKJZ-1Cbf0fcQdnPoTLYbNc 를 참고한다.
-* Gallery 등록을 위해 https://drive.google.com/open?id=1vHNmktm4SE9MIIBXWY1s9qh6eGJjVNxY 를 사용한다.
+* 관련 사용법은 [사용설명서](https://drive.google.com/open?id=1xdimVwZrJDpLWi5YQWzTPKJZ-1Cbf0fcQdnPoTLYbNc) 를 참고한다.
+* Gallery 등록을 위해 [postman_collection파일](https://drive.google.com/open?id=1vHNmktm4SE9MIIBXWY1s9qh6eGJjVNxY)을 다운받아 사용한다.
 
 * https://github.com/junheeheu/skt_ai_lecture_2018
-
-[googlelink](https://google.com)
