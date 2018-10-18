@@ -33,3 +33,5 @@ Code 동작 환경
 * Gallery 등록을 위해 https://drive.google.com/open?id=1vHNmktm4SE9MIIBXWY1s9qh6eGJjVNxY 를 사용한다.
 
 * https://github.com/junheeheu/skt_ai_lecture_2018
+
+[googlelink]: https://google.com "Go google"
