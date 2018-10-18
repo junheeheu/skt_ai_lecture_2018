@@ -1,7 +1,8 @@
 2018년 영상인식 강좌의 실습을 위한 Code
 ================================
 
-- 본 Code는 2018년 영상인식 강좌의 실습을 위해 한시적 사용을 목적으로 하고 있으며, 강좌 이외의 목적으로 활용될 수 없다.
+- 본 Code는 SKT에 모든 권한이 있다.
+- 본 Code는 2018년 영상인식 강좌의 실습을 하는 학생들을 위한 한시적 사용을 목적으로 하고 있으며, 강좌 이외의 목적으로 활용될 수 없다.
 
 Code 동작 환경
 ------------------------
@@ -26,6 +27,7 @@ Code 동작 환경
   * 얼굴 검출은 정면으로 제한된다.
   * 한 사람에 대한 결과만 return 한다.
     * 결과 return의 기준은 얼굴의 크기로 정의된다.
+* 학기 프로젝트를 위해 사용이 필요한 경우 junhee.heu_at_sk.com 으로 연락 요망
 
 * 관련 사용법은 https://drive.google.com/open?id=1xdimVwZrJDpLWi5YQWzTPKJZ-1Cbf0fcQdnPoTLYbNc 를 참고한다.
 * Gallery 등록을 위해 https://drive.google.com/open?id=1vHNmktm4SE9MIIBXWY1s9qh6eGJjVNxY 를 사용한다.
