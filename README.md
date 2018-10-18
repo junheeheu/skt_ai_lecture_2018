@@ -17,7 +17,8 @@ Code 동작 환경
 
 만약 Ubuntu 환경이 없다면
 ------------------------
-* AWS ([Amazon_Web_Service](https://drive.google.com/open?id=1oDysftiGrr3yo3qX1jfLJmiRu8xhiNRd62tjk5LvdgQ))를 통해 환경을 무료로 제공 받을 수 있다.
+* AWS (Amazon Web Service)를 통해 환경을 무료로 제공 받을 수 있다.
+  * [AWS사용설명서](https://drive.google.com/open?id=1oDysftiGrr3yo3qX1jfLJmiRu8xhiNRd62tjk5LvdgQ)
 
 현재 사용되는 인식 엔진에 대해
 ------------------------
