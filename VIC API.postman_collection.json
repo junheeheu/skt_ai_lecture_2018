@@ -1,0 +1,411 @@
+{
+	"info": {
+		"_postman_id": "e84d9584-6582-a8b1-3df9-35c1bd676aaa",
+		"name": "VIC API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getUserFace",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"",
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-AI-Access-Token",
+						"value": "2032FBEAD530444DB676440AFFE3A0A2"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://stg-pif-ai.aicloud.kr/user/va/face/images?page=1&size=10",
+					"protocol": "http",
+					"host": [
+						"stg-pif-ai",
+						"aicloud",
+						"kr"
+					],
+					"path": [
+						"user",
+						"va",
+						"face",
+						"images"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "size",
+							"value": "10"
+						}
+					]
+				},
+				"description": "등록된 얼굴을 조회하는 API 입니다. "
+			},
+			"response": [
+				{
+					"name": "getUserFace",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-AI-Access-Token",
+								"value": "B49367D36C92413F8B6E36B0115630A8",
+								"warning": ""
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "http://stg-pif-ai.aicloud.kr/user/va/face/images?page=1&size=10",
+							"protocol": "http",
+							"host": [
+								"stg-pif-ai",
+								"aicloud",
+								"kr"
+							],
+							"path": [
+								"user",
+								"va",
+								"face",
+								"images"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "size",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "connection",
+							"value": "Keep-Alive",
+							"name": "connection",
+							"description": ""
+						},
+						{
+							"key": "content-type",
+							"value": "application/json;charset=UTF-8",
+							"name": "content-type",
+							"description": ""
+						},
+						{
+							"key": "date",
+							"value": "Fri, 08 Sep 2017 04:50:12 GMT",
+							"name": "date",
+							"description": ""
+						},
+						{
+							"key": "keep-alive",
+							"value": "timeout=5, max=100",
+							"name": "keep-alive",
+							"description": ""
+						},
+						{
+							"key": "server",
+							"value": "Apache-Coyote/1.1",
+							"name": "server",
+							"description": ""
+						},
+						{
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"name": "transfer-encoding",
+							"description": ""
+						}
+					],
+					"cookie": [],
+					"body": "{\"serviceId\":\"SVC0000001\",\"uniqueId\":\"ALDEDV6L9HQJBA77E88FALDEGOGUEN8HBB78E74C\",\"page\":1,\"size\":10,\"faceInfo\":[{\"faceId\":\"VASETF7DJKVCF36C7B04\",\"imageSeq\":81,\"labelName\":\"tt\",\"labelIndex\":5,\"imageFilePath\":\"http://stg-img-ai.aicloud.kr\",\"imageFileName\":\"f722f63b-fecd-4a3a-a9e7-9574c2af9e3f.jpg\",\"thumbnailFilePath\":\"http://stg-img-ai.aicloud.kr\",\"thumnailFileName\":\"485c08f1-f890-45f8-b0f9-23e6ac311163.jpg\"},{\"faceId\":\"VASETEALRR7KDBA48DC4\",\"imageSeq\":76,\"labelName\":\"test\",\"labelIndex\":4,\"imageFilePath\":\"http://stg-img-ai.aicloud.kr\",\"imageFileName\":\"1c40642e-2087-4031-9f9b-3b42c896a477.jpg\",\"thumbnailFilePath\":\"http://stg-img-ai.aicloud.kr\",\"thumnailFileName\":\"b44f61aa-9c68-41a9-b1a8-545c472fe769.jpg\"},{\"faceId\":\"VASETEALRR7KDBA48DC4\",\"imageSeq\":75,\"labelName\":\"test\",\"labelIndex\":4,\"imageFilePath\":\"http://stg-img-ai.aicloud.kr\",\"imageFileName\":\"f76c6434-d773-4218-99a6-d536aa7a99f4.jpg\",\"thumbnailFilePath\":\"http://stg-img-ai.aicloud.kr\",\"thumnailFileName\":\"70c9f504-e975-4796-b57c-f0d1d90855ae.jpg\"},{\"faceId\":\"VASETEALRR7KDBA48DC4\",\"imageSeq\":74,\"labelName\":\"test\",\"labelIndex\":4,\"imageFilePath\":\"http://stg-img-ai.aicloud.kr\",\"imageFileName\":\"2473c02d-339e-43f3-b386-5750d354469c.jpg\",\"thumbnailFilePath\":\"http://stg-img-ai.aicloud.kr\",\"thumnailFileName\":\"f87d36fe-02fd-4a4e-b3b4-d1b4688817e4.jpg\"},{\"faceId\":\"VASETEABB5KD629DC60F\",\"imageSeq\":73,\"labelName\":\"kys\",\"labelIndex\":3,\"imageFilePath\":\"http://stg-img-ai.aicloud.kr\",\"imageFileName\":\"51cd722e-903f-4c39-8934-cfd11b5340f6.jpg\",\"thumbnailFilePath\":\"http://stg-img-ai.aicloud.kr\",\"thumnailFileName\":\"1dd718cc-c877-4d5e-8e00-1cd4b638debe.jpg\"},{\"faceId\":\"VASETEABB5KD629DC60F\",\"imageSeq\":72,\"labelName\":\"kys\",\"labelIndex\":3,\"imageFilePath\":\"http://stg-img-ai.aicloud.kr\",\"imageFileName\":\"e946a32d-07e9-49f0-b6d6-0c556d7a63f4.jpg\",\"thumbnailFilePath\":\"http://stg-img-ai.aicloud.kr\",\"thumnailFileName\":\"3ee64e1a-affd-4537-80f0-89221912e57f.jpg\"},{\"faceId\":\"VASETE27STW458713E84\",\"imageSeq\":67,\"labelName\":\"bym\",\"labelIndex\":2,\"imageFilePath\":\"http://stg-img-ai.aicloud.kr\",\"imageFileName\":\"65034768-936a-4dc9-af68-8dc0c8b4a7a3.jpg\",\"thumbnailFilePath\":\"http://stg-img-ai.aicloud.kr\",\"thumnailFileName\":\"1f5fba6c-04b1-4d68-be72-d7915df22698.jpg\"}]}"
+				}
+			]
+		},
+		{
+			"name": "addUserFace",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-AI-Access-Token",
+						"value": "B49367D36C92413F8B6E36B0115630A8"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "imageLabelMeta",
+							"value": "{\"labelName\":\"김철수\"}",
+							"type": "text"
+						},
+						{
+							"key": "imageFile",
+							"type": "file",
+							"src": "얼굴인식_1920x1080.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://stg-pif-ai.aicloud.kr/user/va/face/",
+					"protocol": "http",
+					"host": [
+						"stg-pif-ai",
+						"aicloud",
+						"kr"
+					],
+					"path": [
+						"user",
+						"va",
+						"face",
+						""
+					]
+				},
+				"description": "얼굴 Label명을 등록하는 API 입니다. "
+			},
+			"response": []
+		},
+		{
+			"name": "changeUserLabel",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "X-AI-Access-Token",
+						"value": "B49367D36C92413F8B6E36B0115630A8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"labelName\":\"김철수\",\"labelNameNew\":\"김영희\"}"
+				},
+				"url": {
+					"raw": "http://stg-pif-ai.aicloud.kr/user/va/face/VASETF9J0TU6DBD28408",
+					"protocol": "http",
+					"host": [
+						"stg-pif-ai",
+						"aicloud",
+						"kr"
+					],
+					"path": [
+						"user",
+						"va",
+						"face",
+						"VASETF9J0TU6DBD28408"
+					]
+				},
+				"description": "사용자가 등록한 얼굴 Lable명을 변경하는 API입니다."
+			},
+			"response": []
+		},
+		{
+			"name": "removeUserLabel",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-AI-Access-Token",
+						"value": "B49367D36C92413F8B6E36B0115630A8"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://stg-pif-ai.aicloud.kr/user/va/face/remove/VASETF7DJKVCF36C7B04",
+					"protocol": "http",
+					"host": [
+						"stg-pif-ai",
+						"aicloud",
+						"kr"
+					],
+					"path": [
+						"user",
+						"va",
+						"face",
+						"remove",
+						"VASETF7DJKVCF36C7B04"
+					]
+				},
+				"description": "등록된 Label명에 해당하는 이미지를 삭제하는 기능입니다. "
+			},
+			"response": []
+		},
+		{
+			"name": "removeUserFace",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-AI-Access-Token",
+						"value": "B49367D36C92413F8B6E36B0115630A8"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://stg-pif-ai.aicloud.kr/user/va/face/remove/",
+					"protocol": "http",
+					"host": [
+						"stg-pif-ai",
+						"aicloud",
+						"kr"
+					],
+					"path": [
+						"user",
+						"va",
+						"face",
+						"remove",
+						""
+					]
+				},
+				"description": "사용자가 등록한 얼굴 이미지 정보를 모두 삭제하는 API입니다."
+			},
+			"response": []
+		},
+		{
+			"name": "recognizeImage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-AI-Access-Token",
+						"value": "80DB8DDF7F5D41B7A950F26C985255B3"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "------WebKitFormBoundary7MA4YWxkTrZu0gW\nContent-Disposition: form-data; name=\"imageLabelMeta\"\nContent-Type: application/json\n\n{\"request\":{\"requestId\":\"APP123045001201511251125\",\"requestType\":\"S\",\"multiModalCount\":\"\",\"accessToken\":\"80DB8DDF7F5D41B7A950F26C985255B3\",\"flowCode\":\"\",\"clientStatus\":{\"musicStatus\":\"\"},\"clientVersion\":\"\"},\"serviceInfo\":{\"serviceEngineType\":\"F\",\"faceRegisterDate\":\"20170908\",\"cropYn\":\"N\"}}\n------WebKitFormBoundary7MA4YWxkTrZu0gW\nContent-Disposition: form-data; name=\"imageFile\"; filename=\"00002d00001.jpg\"\nContent-Type: image/jpeg\n\nImage File (Postman에서는 recognizeImage API가 지원되지 않음. CURL 사용 권장)\n\n------WebKitFormBoundary7MA4YWxkTrZu0gW--"
+				},
+				"url": {
+					"raw": "http://stg-vic-ai.aicloud.kr:6000/upload/recognition",
+					"protocol": "http",
+					"host": [
+						"stg-vic-ai",
+						"aicloud",
+						"kr"
+					],
+					"port": "6000",
+					"path": [
+						"upload",
+						"recognition"
+					]
+				},
+				"description": "영상인식을 요청하는 API"
+			},
+			"response": []
+		},
+		{
+			"name": "getServerInfo",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-AI-Access-Token",
+						"value": "B49367D36C92413F8B6E36B0115630A8"
+					},
+					{
+						"key": "X-AI-VAS-EngineType",
+						"value": "F"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://stg-pif-ai.aicloud.kr/api/pif/allocation/serverinfo",
+					"protocol": "http",
+					"host": [
+						"stg-pif-ai",
+						"aicloud",
+						"kr"
+					],
+					"path": [
+						"api",
+						"pif",
+						"allocation",
+						"serverinfo"
+					]
+				},
+				"description": "VIC 서버 연결 주소 및 사용자가 얼굴 인식을 위해 서비스 등록 날짜 정보 조회"
+			},
+			"response": []
+		},
+		{
+			"name": "access token 발급",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"userExternalId\":\"SVCESH9XPFLC6DD90499\",\n  \"deviceExternalId\":\"DTESH9XPFMP6DD94908\",\n  \"deviceTypeCode\":\"DVC_SPK\",\n  \"deviceNickName\":\"AIASSET_TEST\",\n  \"encryptedYesno\":\"N\"\n}"
+				},
+				"url": {
+					"raw": "http://stg-pif-ad.aicloud.kr/auth/login/anonymous",
+					"protocol": "http",
+					"host": [
+						"stg-pif-ad",
+						"aicloud",
+						"kr"
+					],
+					"path": [
+						"auth",
+						"login",
+						"anonymous"
+					]
+				},
+				"description": "AI Platform용 anonymous 계정에 대한 access token 발급 API"
+			},
+			"response": []
+		},
+		{
+			"name": "access token 발급",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"serviceId\":\"SVCETFCCPGJD2C96178F\",\n  \"deviceTypeId\":\"DTETFCCPGK72C964173\",\n  \"uniqueId\":\"AIASSET_VIAPI_TEST2\"\n}"
+				},
+				"url": {
+					"raw": "http://stg-sif-ai.aicloud.kr/access/token",
+					"protocol": "http",
+					"host": [
+						"stg-sif-ai",
+						"aicloud",
+						"kr"
+					],
+					"path": [
+						"access",
+						"token"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
