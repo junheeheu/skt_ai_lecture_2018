@@ -30,6 +30,6 @@ Code 동작 환경
 * 학기 프로젝트를 위해 사용이 필요한 경우 junhee.heu_at_sk.com 으로 연락 요망
 
 * 관련 사용법은 [사용설명서](https://drive.google.com/open?id=1xdimVwZrJDpLWi5YQWzTPKJZ-1Cbf0fcQdnPoTLYbNc) 를 참고한다.
-* Gallery 등록을 위해 [postman_collection파일](https://drive.google.com/open?id=1vHNmktm4SE9MIIBXWY1s9qh6eGJjVNxY)을 다운받아 사용한다.
+* Gallery 등록을 위해 ([postman_collection파일_Download_Link_1](https://drive.google.com/open?id=1vHNmktm4SE9MIIBXWY1s9qh6eGJjVNxY) or [postman_collection파일_Download_Link_2](https://github.com/junheeheu/skt_ai_lecture_2018/blob/master/VIC%20API.postman_collection.json))을 다운받아 사용한다.
 
 * https://github.com/junheeheu/skt_ai_lecture_2018
