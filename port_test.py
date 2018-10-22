@@ -2,7 +2,6 @@
 import skt_face
 
 imgpath = './26_1.jpg'
-img = cv2.imread(imgpath)
 phone_num = 5122
 school_name = 'snu'
 
