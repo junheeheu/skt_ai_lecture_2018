@@ -36,7 +36,8 @@ $ ssh -i /path/to/your_key.pem -L 8888:127.0.0.1:8888 ubuntu@your.aws.ip.add
 ~~~
 ex:
 ~~~
-$ ssh -i ~/Downloads/skt_lecture.pem -L 8888:127.0.0.1:8888 ubuntu@52.79.44.222 
+$ ssh -i ~/Downloads/skt_lecture.pem -L 8888:127.0.0.1:8888 ubuntu@52.79.44.222
+$ ssh -i D:\\Downloads\\skt_lecture.pem -L 8888:127.0.0.1:8888 ubuntu@52.79.44.222
 ~~~
 
 * 접속 후 jupyter notebook 실행
@@ -44,3 +45,16 @@ $ ssh -i ~/Downloads/skt_lecture.pem -L 8888:127.0.0.1:8888 ubuntu@52.79.44.222
 $ jupyter notebook
 ~~~
 
+현재 사용되는 인식 엔진에 대해
+------------------------
+
+* 현재 사용되는 인식 엔진은
+  * 얼굴 검출은 정면으로 제한된다.
+  * 한 사람에 대한 결과만 return 한다.
+    * 얼굴이 2개 이상일 경우, 결과 return의 기준은 얼굴의 크기로 정의된다.
+* 학기 프로젝트를 위해 사용이 필요한 경우 junhee.heu_at_sk.com 으로 연락 요망
+
+* 관련 사용법은 [사용설명서](https://drive.google.com/open?id=1xdimVwZrJDpLWi5YQWzTPKJZ-1Cbf0fcQdnPoTLYbNc) 를 참고한다.
+* Gallery 등록을 위해 ([postman_collection파일_Download_Link_1](https://drive.google.com/open?id=1vHNmktm4SE9MIIBXWY1s9qh6eGJjVNxY) or [postman_collection파일_Download_Link_2](https://github.com/junheeheu/skt_ai_lecture_2018/blob/master/VIC%20API.postman_collection.json))을 다운받아 사용한다.
+
+* https://github.com/junheeheu/skt_ai_lecture_2018
